@@ -68,3 +68,12 @@ These tests help to determine whether a sample mean differs significantly from a
 
 ---
 
+## 🛝 Case study: Statistical Testing of Steel rod FG in Manufacturing Plant
+
+### 🛺 Objectives
+- Problem definition
+- Hypothesis setup
+- Statistical test
+- Excel implementation
+- Interpretation of results
+
