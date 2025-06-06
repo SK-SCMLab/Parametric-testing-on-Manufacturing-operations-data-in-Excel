@@ -77,3 +77,10 @@ These tests help to determine whether a sample mean differs significantly from a
 - Excel implementation
 - Interpretation of results
 
+---
+
+### 🛟 Interpretation
+
+1. *Situation: On the shop floor, the planning manager at the Hot Rolling division recently changed the Slitting machine to improve the parting (cut along the length) process of output steel sheet. To understand the quality of the machine on parting, the team has taken the 75 data points. Subsequently, the manager decided to consider the population for analysis taking sample of 50 data points.*
+
+    **Inference**: 
