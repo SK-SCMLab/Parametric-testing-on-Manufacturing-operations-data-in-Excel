@@ -98,7 +98,7 @@ These tests help to determine whether a sample mean differs significantly from a
 
 3. *Situation: At the factory, the quality engineer wants to check the current batch coming out of the punching machine. The punching machine was changed a few days ago and the plant is targetting variance in rod thickness to be 0.01 mm². In this aspect, the engieer wants to checks the sample of nearly 50 batches of steel. When cleansed, the sample size of punching machine turns out to be only 7*
 
-    **Inference**: *Chi-Square Test for variance* ||  From the excel analysis, p-value ~ 0, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is true.
+    **Inference**: *Chi-Square Test for variance* || From the excel analysis, p-value ~ 0, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is true.
 
     **Conclusion**: - Reject H₀ as we have extremely low p-value i.e., we have overwhelming evidence against H₀
                     - The result is statistically significant
@@ -106,4 +106,10 @@ These tests help to determine whether a sample mean differs significantly from a
 
 4. *Situation: The factory manages two different production shifts (Day & Night) that manufactures steel rods. Now, the quality engineer wants to test if there's a significant difference in the average number of batches produced during each shift*
 
-    **Inference**: 
+    **Inference**: *Two-sample T-Test* || From the excel analysis, p-value ~ 0, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is true.
+
+    **Conclusion**: - Reject H₀ as we have extremely low p-value i.e., we have overwhelming evidence against H₀
+                    - The result is statistically significant
+                    - There is an extremely strong difference between the groups (or treatment effect)
+
+5. 
