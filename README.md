@@ -130,4 +130,41 @@ These tests help to determine whether a sample mean differs significantly from a
                     - The result is no statistically significant difference in variance between the two machines
                     - The process variability is considered similar
 
+---
 
+## 🔡 Repository structure
+CharacteristicValue3_dataset.xlsx
+
+---
+
+## 🈯️ Excel functionalities used
+- IF()
+- T.DIST()
+- RAND()
+- RANDBETWEEN()
+- STDDEV.P()
+- COUNTIF()
+- AVERAGE()
+- SQRT()
+- NORM.S.DIST()
+- Dynamic Arrays
+- COUNT()
+- T.DIST.RT()
+- ABS()
+- T.DIST.2T()
+- VAR.S()
+- CHISQ.DIST.RT()
+- MAX()
+- MIN()
+- F.TEST()
+- ANOVA()
+
+---
+
+## 🔰 Requirements
+- Microsoft Excel 2016 or later
+- Business Statistics, Production Scheduling
+
+---
+
+*"Torture the data, and it will confess to anything. - Ronald Coase"*
