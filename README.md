@@ -74,7 +74,7 @@ These tests help to determine whether a sample mean differs significantly from a
 - Steel rod length validation using one-sample Z.Test
 - Test whether the mean fill weight differs from the target using one-sample T.Test
 - Determine if the variance in diameter of rods from a new batch significantly differs from the historical variance using Chi-Square test
-- Determine whether the edge condition from Day shift differs significantly from the night shift
+- Determine whether the batch numbers from Day shift differs significantly from the night shift
 
 ---
 
