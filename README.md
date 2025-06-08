@@ -74,7 +74,9 @@ These tests help to determine whether a sample mean differs significantly from a
 - Steel rod length validation using one-sample Z.Test
 - Test whether the mean fill weight differs from the target using one-sample T.Test
 - Determine if the variance in diameter of rods from a new batch significantly differs from the historical variance using Chi-Square test
-- Determine whether the batch numbers from Day shift differs significantly from the night shift
+- Determine whether the batch numbers from Day shift differs significantly from the night shift using Two sample T.Test
+- Determine whether the variances of batch output from Machine A and Machine B are significantly different using F.Test
+- Test whether the means of batch productions by Machine A, Machine B and Machine C are significantly different using one-way ANOVA
 
 ---
 
@@ -112,4 +114,20 @@ These tests help to determine whether a sample mean differs significantly from a
                     - The result is statistically significant
                     - There is an extremely strong difference between the groups (or treatment effect)
 
-5. 
+5. *Situation: At the factory, the quality engineer in the steel manufacturing plant received a call that one of the two machines used to slit the product BPL_F is slitting the produced parts with more variability than the other.*
+
+    **Inference**: *F-Test* || From the excel analysis, p-value = 0.692, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is not true
+
+    **Conclusion**: - Fail to reject H₀ as we have high p-value
+                    - The result is no statistically significant difference in variance between the two machines
+                    - The process variability is considered similar
+
+6. *Situation: At the factor, the production planning analyst wants to check if three different slitting machines (A, B, C) perform slitting operation with significantly different average rates*
+
+    **Inference**: *ANOVA single factor* || From the excel analysis, p-value = 0.692, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is not true
+
+    **Conclusion**: - Fail to reject H₀ as we have high p-value
+                    - The result is no statistically significant difference in variance between the two machines
+                    - The process variability is considered similar
+
+
