@@ -71,8 +71,9 @@ These tests help to determine whether a sample mean differs significantly from a
 ## 🛝 Case study: Statistical Testing of Steel rod FG in Manufacturing Plant
 
 ### 🛺 Objectives
-- Steel rod length validation (SD is known)
-- Packinging fill weight suspicion (SD is unknown)
+- Steel rod length validation using one-sample Z.Test
+- Test whether the mean fill weight differs from the target using one-sample T.Test
+- Determine if the variance in diameter of rods from a new batch significantly differs from the historical variance using Chi-Square test
 - 
 ---
 
@@ -86,11 +87,12 @@ These tests help to determine whether a sample mean differs significantly from a
                     - The selected sample provides overwhelming evidence that the true population parameter is not equal to the null hypothesis value
 
 
-3. *Situation: At the warehouse, the Inbound inventory manager suspects that there's a packaging fill weight has drifted from the target of 250 gm of paper. Ideally, identical steel rods possess same weight, if there's any deviation in the packaging weight, then the root cause lies in the machine through which the steel rod has passed finally. In steel manufacturing plant, it is packaging machine. Now, the manager wants to audit the machine accuracy but he is not sure about the population standard deviation.*
+2. *Situation: At the warehouse, the Inbound inventory manager suspects that there's a packaging fill weight has drifted from the target of 250 gm of paper. Ideally, identical steel rods possess same weight, if there's any deviation in the packaging weight, then the root cause lies in the machine through which the steel rod has passed finally. In steel manufacturing plant, it is packaging machine. Now, the manager wants to audit the machine accuracy but he is not sure about the population standard deviation.*
 
     **Inference**: *One sample T.Test* || From the excel analysis, p-value ~ 0, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is true.
 
     **Conclusion**: - Reject H₀ as we have extremely low p-value i.e., we have overwhelming evidence against H₀
                     - The result is statistically significant
                     - There is an extremely strong difference between the groups (or treatment effect)
-   
+
+3. *Situation: At the factory, the quality engineer wants to check the current batch coming out of the punching machine. The punching machine was changed a few days ago and the plant is targetting variance in rod thickness to be 0.01 mm². In this aspect, the engieer wants to checks the sample of nearly 50 batches of steel.*
