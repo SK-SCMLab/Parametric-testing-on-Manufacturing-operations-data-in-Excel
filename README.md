@@ -71,12 +71,9 @@ These tests help to determine whether a sample mean differs significantly from a
 ## 🛝 Case study: Statistical Testing of Steel rod FG in Manufacturing Plant
 
 ### 🛺 Objectives
-- Problem definition
-- Hypothesis setup
-- Statistical test
-- Excel implementation
-- Interpretation of results
-
+- Steel rod length validation (SD is known)
+- Packinging fill weight suspicion (SD is unknown)
+- 
 ---
 
 ### 🛟 Interpretation
@@ -88,4 +85,6 @@ These tests help to determine whether a sample mean differs significantly from a
                     - The selected sample provides overwhelming evidence that the true population parameter is not equal to the null hypothesis value
 
 
-2. *
+2. *Situation: At the warehouse, the Inbound inventory manager suspects that there's a packaging fill weight has drifted from the target of 250 gm of paper. Ideally, identical steel rods possess same weight, if there's any deviation in the packaging weight, then the root cause lies in the machine through which the steel rod has passed finally. In steel manufacturing plant, it is packaging machine. Now, the manager wants to audit the machine accuracy but he is not sure of the population standard deviation.*
+
+   
