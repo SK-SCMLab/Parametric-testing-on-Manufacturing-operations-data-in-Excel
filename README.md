@@ -75,6 +75,7 @@ These tests help to determine whether a sample mean differs significantly from a
 - Test whether the mean fill weight differs from the target using one-sample T.Test
 - Determine if the variance in diameter of rods from a new batch significantly differs from the historical variance using Chi-Square test
 - Determine whether the edge condition from Day shift differs significantly from the night shift
+
 ---
 
 ### 🛟 Interpretation
@@ -103,6 +104,6 @@ These tests help to determine whether a sample mean differs significantly from a
                     - The result is statistically significant
                     - There is an extremely strong difference between the groups (or treatment effect)
 
-4. *Situation: The factory manages two different production shifts (Day & Night) that manufactures steel rods. Now, the quality engineer wants to test if there's a significant difference in the average weight of the rods produced during each shift*
+4. *Situation: The factory manages two different production shifts (Day & Night) that manufactures steel rods. Now, the quality engineer wants to test if there's a significant difference in the average number of batches produced during each shift*
 
     **Inference**: 
