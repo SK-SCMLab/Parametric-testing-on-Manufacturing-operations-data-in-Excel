@@ -81,10 +81,12 @@ These tests help to determine whether a sample mean differs significantly from a
 1. *Situation: On the shop floor, the planning manager at the Hot Rolling division recently changed the Slitting machine to improve the parting (cut along the length) process of output steel sheet. To understand the quality of the machine on parting, the team has taken the 75 data points. Subsequently, the manager decided to consider the population for analysis taking sample of 50 data points.*
 
     **Inference**: *One sample Z.Test* || From the excel analysis, p-value ~ 0, it means the probability of observing such an extreme result (or more extreme) under the null Hypothesis (H₀) is extremely low - so low that is effectively 0. You have a very strong evidence                                           against H₀
+
     **Conclusion**: - Reject H₀ at any common significance level
                     - The selected sample provides overwhelming evidence that the true population parameter is not equal to the null hypothesis value
 
 
-2. *Situation: At the warehouse, the Inbound inventory manager suspects that there's a packaging fill weight has drifted from the target of 250 gm of paper. Ideally, identical steel rods possess same weight, if there's any deviation in the packaging weight, then the root cause lies in the machine through which the steel rod has passed finally. In steel manufacturing plant, it is packaging machine. Now, the manager wants to audit the machine accuracy but he is not sure of the population standard deviation.*
+3. *Situation: At the warehouse, the Inbound inventory manager suspects that there's a packaging fill weight has drifted from the target of 250 gm of paper. Ideally, identical steel rods possess same weight, if there's any deviation in the packaging weight, then the root cause lies in the machine through which the steel rod has passed finally. In steel manufacturing plant, it is packaging machine. Now, the manager wants to audit the machine accuracy but he is not sure about the population standard deviation.*
 
+    **Inference**: *One sample T.Test* || 
    
