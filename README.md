@@ -83,7 +83,6 @@ These tests help to determine whether a sample mean differs significantly from a
     **Inference**: *One sample Z.Test* || From the excel analysis, p-value ~ 0, it means the probability of observing such an extreme result (or more extreme) under the null Hypothesis (H₀) is extremely low - so low that is effectively 0. You have a very strong evidence                                           against H₀
 
     **Conclusion**: - Reject H₀ at any common significance level
-
                     - The selected sample provides overwhelming evidence that the true population parameter is not equal to the null hypothesis value
 
 
@@ -92,5 +91,6 @@ These tests help to determine whether a sample mean differs significantly from a
     **Inference**: *One sample T.Test* || From the excel analysis, p-value ~ 0, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is true.
 
     **Conclusion**: - Reject H₀ as we have extremely low p-value i.e., we have overwhelming evidence against H₀
-                    - 
+                    - The result is statistically significant
+                    - There is an extremely strong difference between the groups (or treatment effect)
    
