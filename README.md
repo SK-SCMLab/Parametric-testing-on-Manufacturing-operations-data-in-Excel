@@ -88,5 +88,5 @@ These tests help to determine whether a sample mean differs significantly from a
 
 3. *Situation: At the warehouse, the Inbound inventory manager suspects that there's a packaging fill weight has drifted from the target of 250 gm of paper. Ideally, identical steel rods possess same weight, if there's any deviation in the packaging weight, then the root cause lies in the machine through which the steel rod has passed finally. In steel manufacturing plant, it is packaging machine. Now, the manager wants to audit the machine accuracy but he is not sure about the population standard deviation.*
 
-    **Inference**: *One sample T.Test* || 
+    **Inference**: *One sample T.Test* || From the excel analysis, p-value ~ 0, it means the probability of observing sample result (or more extreme) assuming the null hypothesis (H₀) is true. 
    
