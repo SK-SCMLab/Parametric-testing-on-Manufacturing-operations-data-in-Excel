@@ -154,6 +154,8 @@ CharacteristicValue3_dataset.xlsx
 - T.DIST.2T()
 - VAR.S()
 - CHISQ.DIST.RT()
+- CHISQ.INV()
+- CHISQ.INV.RT()
 - MAX()
 - MIN()
 - F.TEST()
